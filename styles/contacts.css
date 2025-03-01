@@ -1,6 +1,7 @@
 .contacts {
     padding: 55px 30px 70px;
     text-align: center;
+    
 }
 
 .contacts-title {
@@ -10,21 +11,18 @@
 
 }
 
-.contacts-button {
+.rectangle {
     width: 210px;
     height: 42px;
     background-color: var(--font-color);
-    border: none;
     border-radius: 21px;
-    margin: 75px 0 40px;
-    transition: .3s;
-}
-
-.contacts-button:hover {
-    opacity: .8;
-    transition: .3s;
+    margin: 75px auto 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
 
 .button-link {
     font-size: 24px;
